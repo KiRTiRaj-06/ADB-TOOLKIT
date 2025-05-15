@@ -16,7 +16,7 @@ namespace DATAExtractionUSINGADB
 
         private void button4_Click(object sender, EventArgs e)
         {
-            String ConnectionString = "userId=root;password=0622#I;server=localhost;database=at";
+            String ConnectionString = "userId=root;password=pswd;server=localhost;database=at";
             MySqlConnection conn = new MySqlConnection(ConnectionString);
             string query = "SELECT * FROM cpuinfotable";
             try
