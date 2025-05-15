@@ -21,7 +21,7 @@ namespace DATAExtractionUSINGADB
             InitializeComponent();
         }
 
-        string connstring = "userId=root;password=0622#I;server=localhost;database=at;Charset=utf8mb4;";
+        string connstring = "userId=root;password=pswd;server=localhost;database=at;Charset=utf8mb4;";
         
         //private string Escape(string input, int maxLength = 255)
         //{
